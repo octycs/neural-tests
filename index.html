@@ -3,11 +3,38 @@
     <title>Neural tests</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="color-test.css">
   </head>
   <body>
-    
+    <div class="container">
+      <h1>Neural tests</h1>
+      <!-- Color test -->
+      <div class="test color-test">
+        <div class="split train">
+          <div class="title">Train</div>
+          <div class="content">
+            <div class="color" id="color-test-train-color"></div>
+            <div class="input">
+              <input class="train-text" type="text" id="color-test-train-input" />
+              <button class="train-button" id="color-test-train-next-button">Next</button>
+              <button class="train-button" id="color-test-train-button">Train</button>
+            </div>
+          </div>
+        </div>
+        <div class="split run">
+          <div class="title">Run</div>
+          <div class="content">
+            <div class="color" id="color-test-run-color"></div>
+            <div class="output">
+              <div class="run-text" id="color-test-run-output"></div>
+              <button class="run-button" id="color-test-run-next-button">Next</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Scripts -->
-    <script src="index.js"></script>
     <script src="brain-0.6.3.min.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>

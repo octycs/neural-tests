@@ -1,0 +1,147 @@
+/* GENERAL DEFINITIONS */
+
+* {
+  font-family: sans-serif;
+}
+
+.container {
+  position: absolute;
+  
+  width: 60%;
+  left: 20%;
+  right: 20%;
+}
+
+.container > h1 {
+  margin-top: 30px;
+  
+  text-align: center;
+  
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.test {
+  display: inline-block;
+  
+  background: #FAFAFA;
+  
+  width: 100%;
+  margin-top: 50px;
+  
+  padding: 15px;
+}
+
+.test > .split {
+  float: left;
+  width: 50%;
+}
+
+.test > .split > .title {
+  text-align: center;
+  
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.test > .split > .content {
+  width: 100%;
+}
+
+/* TRAIN */
+
+.train .input {
+  display: inline-block;
+  
+  width: 100%;
+  margin-top: 15px;
+}
+
+.input > .train-text {
+  border: 1px solid #AAAAAA;
+  border-radius: 3px;
+  background: #FDFDFD;
+  
+  width: 46%;
+  height: 30px;
+  margin-top: 1px;
+  padding: 0px 5px;
+  
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.input > .train-text:hover {
+  background: #FFF;
+}
+
+.input > .train-button {
+  outline: none;
+  border: 1px solid transparent;
+  background: #0096D3;
+  
+  width: 20%;
+  height: 30px;
+  margin-left: 5%;
+  padding: 0px;
+}
+
+.input > .train-button:hover {
+  border: 1px solid #0096D3;
+  background: #FAFAFA;
+  
+  cursor: pointer;
+}
+
+.input > .train-button:active {
+  border: 1px solid #0096D3;
+  background: #EEE;
+  
+  cursor: pointer;
+}
+
+/* RUN */
+
+.run .output {
+  display: inline-block;
+  
+  width: 100%;
+  margin-top: 15px;
+}
+
+.output > .run-text {
+  float: left;
+  
+  width: 71%;
+  height: 30px;
+  margin-top: 1px;
+  padding: 5px 5px;
+  
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.output > .run-button {
+  outline: none;
+  border: 1px solid transparent;
+  background: #0096D3;
+  
+  width: 20%;
+  height: 30px;
+  margin-left: 5%;
+  padding: 0px;
+}
+
+.output > .run-button:hover {
+  border: 1px solid #0096D3;
+  background: #FAFAFA;
+  
+  cursor: pointer;
+}
+
+.output > .run-button:active {
+  border: 1px solid #0096D3;
+  background: #EEE;
+  
+  cursor: pointer;
+}
