@@ -1,0 +1,9 @@
+/* DEFINTIONS FOR COLOR TEST */
+
+.color-test .color {
+  border: 1px solid #AAA;
+  
+  width: 98.5%;
+  height: 100px;
+  margin-top: 10px;
+}
