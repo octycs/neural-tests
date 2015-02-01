@@ -1,5 +1,5 @@
 Capability tests of neural networks using [brain.js](https://github.com/harthur/brain).
-See [here](https://toobi.github.io/neural-tests) to test them in browser.
+See [here](https://octycs.github.io/neural-tests) to test them in browser.
 
 # Tests
 ## Color test
